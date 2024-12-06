@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="enow john">
+        <meta name="description" content="am learning html"
+<title>TO DO LIST</title>
+<link rel="icon" href="html5.png" type="image/x-icon">
+<link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+<h1>
+    Hello world
+</h1>
+<p>
+<a href="#contact">contact me</a>
+</p>
+<p>thi is my first web page</p>
+<a href="http://developer.mozilla.org/">MDN</a>
+<a href="lesson2.html">eyong</a>
+<hr>
+<article id="contact">
+    <h2>Contact Me</h2>
+    <p>For Any worries contact me</p>
+
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+        <legend>Tea Menu</legend>
+        <label for="firstName">firstName:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="john"
+        autocomplete="on"
+        required="true"
+        required autofocust>
+        <p>
+        <label for="lastName">lastname:</label>
+        <input type="text"
+        name="lastName"
+        id="lastName"
+        placeholder="Eyong"
+        autocomplete="on" required
+        ></p>
+        <p>
+            <label for="FamilyName">Familyname:</label>
+            <input type="text"
+            name="FamilyName"
+            id="FamilyName"
+            placeholder="enow"
+            autocomplete="on" required
+            ></p>
+            <p>
+                <label for="password">password:</label>
+                <input type="password"
+                name="password"
+                id="password"
+                placeholder="password"
+               required
+                ></p>
+            <p>
+                <label for="phone">phone:</label>
+                <input type="tel"
+                name="phone"
+                id="phone"
+                placeholder="555-555-5555"
+            
+                ></p>
+                <p>
+                    <label for="decade">Date of birth:</label>
+                    <input type="decade"
+                    name="decade"
+                    id="decade" min="1995" max="2024" step="10" value="1999"
+              ></p>  
+             <!--  <P>  
+            <label for="tea">favorite tea</label>
+            <select name="tea" id="tea">
+                <optgroup label="tea">
+                  <option value="normal tea ">normal tea 100</option>
+               <option value="average tea">average tea 200</option>
+               <option value="best tea">best tea 500</option>
+               <option value="expensive tea">expensive tea 2000</option>
+            </optgroup>
+               <option value="Others">others</option>
+            </select>
+        </P> -->
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>What is your favorite food?</legend>
+    <p>
+        <input type="radio" name="food" id="Eru" value="Eru">
+        <label for="Eru">Eru</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="stew" value="stew">
+        <label for="Eru">Eru</label>
+    </p><p>
+        <input type="radio" name="food" id="Vegetable" value="Beans">
+        <label for="Vegetable">Vegetable</label>
+    
+    </p>
+    </p><p>
+        <input type="radio" name="food" id="Others" value="Others">
+        <label for="Oothers">Others</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Chose your Sport</legend>
+    <p>
+        <input type="checkbox" name="Sport" id="football" value="football"
+        >
+        <label for="football">football</label>
+    </p>
+    <p>
+        <input type="checkbox" name="Sport" id="Tennis" value="Tennis"
+        >
+        <label for="Tennis">Tennis</label>
+    </p>
+    <p>
+        <input type="checkbox" name="Sport" id="Athletics" value="Athletics"
+        >
+        <label for="Athletics">Athletics</label>
+    </p>
+    <p>
+        <input type="checkbox" name="Sport" id="Restling" value="Restling"
+        >
+        <label for="Restling">Restling</label>
+    </p>
+</fieldset>
+<fieldset>
+   <legend>Send me a Note</legend> 
+   <label for="Message">Your message:</label>
+   <br>
+   <textarea name="message" id="Message" cols="20" rows="5" paceholder="Type your message here"></textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+<button type="reset">Reset</button>
+    </form>
+</article>
+    </body>
+
+
+</html>
